@@ -3,7 +3,7 @@
   "policy_name":"Marketing Approval Policy",
    "policy_description":"This policy is created for the marketing expenses",
    "policy_type":4,
-   "policy_status":1,
+   "policy_status":2,
    "policy_transaction_limit":5000.00,
    "created_at":"2022-10-08",
       "additional_fields":[

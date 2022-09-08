@@ -1,25 +1,44 @@
-{"data":{
-    "policy_id":5,
-    "policy_name":"Office Trip",
-    "policy_description":"This policy is created for the marketing expenses",
-    "policy_type":1,
-    "policy_status":1,
-    "policy_transaction_limit":10000.00,
-   "additional_fields":[
+  {"data": {
+  "policy_id":6,
+  "policy_name":"Marketing Approval Policy",
+   "policy_description":"This policy is created for the marketing expenses",
+   "policy_type":1,
+   "policy_status":1,
+   "policy_transaction_limit":5000.00,
+   "created_at":"2022-10-08",
+   "l1_approver":[
       {
-         "field_name":"Comments",
-         "field_mandatory":1,
-         "field_type":"TEXT",
-         "field_values":null,
-          "field_enabled":1
+         "team_member_id":123,
+         "approver_name":"sample",
+         "approver_level":1
       },
       {
-         "field_name":"Date",
-         "field_mandatory":1,
-         "field_type":"DATE",
-         "field_values":null,
-           "field_enabled":0
+         "team_member_id":123,
+         "approver_name":"samples",
+         "approver_level":2
       }
    ],
-   "created_at":"2022-04-28 16:48:04"
-}}
+   "l2_approver":[
+      {
+         "team_member_id":123,
+          "approver_name":"sampless",
+         "approver_level":1
+      },
+      {
+         "team_member_id":123,
+         "approver_name":"sample3",
+         "approver_level":2
+      }
+   ],
+   "l3_approver":[
+      {
+         "team_member_id":123,
+          "approver_name":"sample4",
+         "approver_level":1
+      },
+      {
+         "team_member_id":123,
+          "approver_name":"sample5",
+         "approver_level":2
+      }
+   ]}}

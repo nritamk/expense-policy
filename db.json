@@ -10,7 +10,7 @@
         "expense_category":0,
         "merchant_name":1,
         "description":1,
-        "receipt":1,
+        "receipt":1
    },
    "additional_fields":[
       {

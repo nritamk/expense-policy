@@ -2,7 +2,7 @@
     "policy_id":5,
     "policy_name":"Office Trip",
     "policy_description":"This policy is created for the marketing expenses",
-    "policy_type":5,
+    "policy_type":1,
     "policy_status":1,
     "policy_transaction_limit":10000.00,
    "additional_fields":[

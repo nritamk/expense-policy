@@ -6,6 +6,18 @@
    "policy_status":1,
    "policy_transaction_limit":5000.00,
    "created_at":"2022-10-08",
+      "additional_fields":[
+      {
+         "field_name":"Comments",
+         "field_mandatory":1,
+        "field_enabled":0
+      },
+      {
+         "field_name":"Comments2",
+         "field_mandatory":1,
+         "field_enabled":1
+      }
+   ],
    "l1_approver":[
       {
          "team_member_id":123,

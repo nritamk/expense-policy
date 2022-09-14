@@ -1,4 +1,4 @@
- {"data": {
+ {
   "policy_id":1,
   "policy_name":"Marketing Approval Policy",
    "policy_description":"This policy is created for the marketing expenses",
@@ -58,4 +58,4 @@
           "approver_name":"sample5",
          "approver_level":2
       }
-   ]}}
+   ]}

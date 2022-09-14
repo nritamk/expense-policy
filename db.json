@@ -1,8 +1,8 @@
   {"data": {
-  "policy_id":6,
+  "policy_id":1,
   "policy_name":"Marketing Approval Policy",
    "policy_description":"This policy is created for the marketing expenses",
-   "policy_type":2,
+   "policy_type":1,
    "policy_status":2,
    "policy_transaction_limit":5000.00,
    "created_at":"2022-10-08",
@@ -21,25 +21,31 @@
    "l1_approver":[
       {
          "team_member_id":123,
-         "approver_name":"sample",
-         "approver_level":1
+         "approver_name":"samples",
+         "approver_level":2
       },
       {
          "team_member_id":123,
-         "approver_name":"samples",
-         "approver_level":2
-      }
+         "approver_name":"sample",
+         "approver_level":1
+      },
+     
    ],
    "l2_approver":[
       {
          "team_member_id":123,
           "approver_name":"sampless",
-         "approver_level":1
+         "approver_level":2
       },
       {
          "team_member_id":123,
          "approver_name":"sample3",
-         "approver_level":2
+         "approver_level":3
+      },
+      {
+         "team_member_id":123,
+         "approver_name":"sample3",
+         "approver_level":1
       }
    ],
    "l3_approver":[
